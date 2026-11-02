@@ -1,0 +1,18 @@
+LICENÇA DO PROJETO GNOMONSTER
+
+Este projeto é um ecossistema aberto que engloba software, firmware, documentação técnica de compilação e arquivos de engenharia mecânica (CAD/3D). Para proteger a natureza comunitária do projeto e impedir a exploração comercial não autorizada, aplicam-se os seguintes termos de licença:
+
+1. PARTE DE SOFTWARE E SCRIPTS (Shell Scripts, Configurações e Pipelines)
+Os códigos-fontes proprietários deste repositório estão licenciados sob termos Não Comerciais. É permitido copiar, distribuir e modificar o código estritamente para uso pessoal, científico e educacional. É expressamente proibida a venda, locação ou inclusão deste código em produtos comerciais sem autorização prévia por escrito do autor.
+
+2. PARTE DE HARDWARE, CAD E MODELOS 3D (Desenhos de buchas, anéis, defletores)
+Todos os arquivos de engenharia física, arquivos STL, STEP e projetos mecânicos contidos neste repositório estão licenciados sob a Licença Internacional Creative Commons Atribuição-NãoComercial 4.0 (CC BY-NC 4.0).
+(Para ler os termos completos, visite: https://creativecommons.org)
+
+3. ESCLARECIMENTO DE UPSTREAM (ONSTEP / ASTROARCH)
+O Gnomonster interage e integra-se com ferramentas de terceiros (como o OnStep, licenciado sob a GNU GPL v3, e o Astroarch, licenciado sob a Licença MIT). Este projeto atua apenas como cliente de rede/hardware através de protocolos de comunicação padrão (INDI/Sockets) e não inclui ou modifica o código-fonte protegido por copyleft do OnStep, mantendo sua independência legal em conformidade com as diretrizes de licenciamento de software.
+
+4. COMPONENTES E DRIVERS DE TERCEIROS (VEYE IMAGING)
+Quaisquer arquivos de drivers, patches de código ou binários de Device Tree Overlays (.dtbo) baseados ou derivados diretamente dos repositórios oficiais da VEYE Imaging mantêm-se sob suas respectivas licenças originais de código aberto (GNU GPL v2 / GPL-3.0). A restrição não comercial do projeto Gnomonster aplica-se exclusivamente aos scripts de pipeline de vídeo autorais, modelos de engenharia mecânica CAD e guias de documentação desenvolvidos pelo autor.
+
+Copyright (c) 2026 Bruno Lopes Saisi
