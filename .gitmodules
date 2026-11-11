@@ -1,0 +1,3 @@
+[submodule "software/pibuildkernel"]
+	path = software/pibuildkernel
+	url = git@github.com:brunosaisi/pibuildkernel.git
