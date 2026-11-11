@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Iniciar Camera Astro
+Comment=Script de Câmera RPi5
+# Garanta que o caminho abaixo esteja 100% correto
+Exec=konsole --hold -e /home/astronaut/Desktop/start_camera.sh
+Icon=camera-video
+Terminal=false
+Categories=Utility;
