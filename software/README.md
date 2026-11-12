@@ -6,7 +6,7 @@ I still haven't made a GUI for the camera configuration module, you can control 
 Camera setup script commands are avliable on this page: https://wiki.veye.cc/index.php/VEYE-MIPI-290/327_i2c/
 
 After instalation
-The start_camera.sh script must be run to start the video pipeline. It calls the Veye scripts for driver configuration and starts a gstreamer+ffmpeg video pipeline, so the INDI V4L2 driver recognizes the sensor data stream.
+The start_camera.sh script must be run everytime u boot the system to start the video pipeline. It calls the Veye scripts for driver configuration and starts a gstreamer+ffmpeg video pipeline, so the INDI V4L2 driver recognizes the sensor data stream.
 
 # Building the Drivers Locally
 The following operations are performed on the Raspberry Pi.
