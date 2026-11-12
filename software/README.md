@@ -2,7 +2,7 @@
 
 # VEYE mipi IMX462 + Raspberry Pi 5 (building and installing driver on AstroArch) 
 
-[**English**](#-english) • [**Português**](#-português)
+[**English**](#-English) • [**Português**](#-Português)
 
 </div>
 
@@ -239,8 +239,9 @@ bash sudo ./uninstall_driver.sh veyecam2m
 
 📚 Referências
 
-• Wiki VEYE - Modo V4L2 para Raspberry Pi
-• Repositório Oficial VEYE Imaging no GitHub
-• Documentação Oficial de Compilação de Kernel do Raspberry Pi
-• Wiki VEYE - Comandos I2C VEYE-MIPI-290/327
+* [VEYE Wiki - V4L2 Mode for Raspberry Pi](https://wiki.veye.cc/index.php/V4L2_mode_for_Raspberry_Pi#TCP_streaming)
+* [VEYE Imaging Official GitHub Repository](https://github.com/veyeimaging/raspberrypi_v4l2)
+* [Raspberry Pi Official Kernel Building Documentation](https://www.raspberrypi.org/documentation/linux/kernel/building.md)
+* [VEYE Wiki - VEYE-MIPI-290/327 I2C Commands](https://wiki.veye.cc/index.php/VEYE-MIPI-290/327_i2c/)
+  
 ⬆️ Voltar ao topo
