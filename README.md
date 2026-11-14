@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./assets/logo-circle.png" alt="Logo" width="150" />
+<img src="./assets/logo-circle.png" alt="Logo" width="300" />
 
 # Gnomonster: Open source smart telescope 
 

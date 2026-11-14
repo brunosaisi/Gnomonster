@@ -29,7 +29,7 @@ Please read the official documentation for each item in their respective reposit
 * **[FYSETC E4 Board (OnStepX)]** 12V 10A
 * **[Pair of NEMA 17 400-Step Motors]** (powered via FYSETC E4)
 
-<img src="./assets/grafo1.jpg" alt="System architecture" width="100%" />
+<img src="./assets/grafo1.png" alt="System architecture" width="100%" />
 
 ## Network Configuration
 
