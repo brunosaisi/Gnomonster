@@ -1,0 +1,94 @@
+# The config.txt file in ~/boot/ should look like this. Depending on the distro the path may be ~/boot/firmware/
+# For more options and information see:
+# http://rptl.io/configtxt
+
+initramfs initramfs-linux.img followkernel
+
+#avoid_warnings=1
+#arm_freq=1500
+
+# Uncomment some or all of these to enable the optional hardware interfaces
+dtparam=i2c_arm=on,i2c_baudrate=100000
+#dtparam=i2s=on
+dtparam=spi=on
+
+# Additional overlays and parameters are documented
+# /boot/firmware/overlays/README
+
+# Automatically load overlays for detected cameras
+camera_auto_detect=0
+
+# Automatically load overlays for detected DSI displays
+display_auto_detect=1
+
+# Automatically load initramfs files, if found
+auto_initramfs=1
+
+# Enable DRM VC4 V3D driver
+dtoverlay=vc4-kms-v3d
+max_framebuffers=2
+#framebuffer_depth=24
+
+# Don't have the firmware create an initial video= setting in cmdline.txt.
+# Use the kernel's default instead.
+disable_fw_kms_setup=1
+
+# Disable compensation for displays with overscan
+disable_overscan=1
+
+# Uncomment if hdmi display is not detected and composite is being output
+#hdmi_force_hotplug=1
+
+# Uncomment if you want to disable wifi or bluetooth respectively
+dtoverlay=disable-wifi
+dtoverlay=disable-bt
+
+# Uncomment this to enable infrared communication.
+#dtoverlay=gpio-ir,gpio_pin=17
+#dtoverlay=gpio-ir-tx,gpio_pin=18
+
+# Run in 64-bit mode
+arm_64bit=1
+
+# Run as fast as firmware / board allows
+arm_boost=1
+
+[cm4]
+# Enable host mode on the 2711 built-in XHCI USB controller.
+# This line should be removed if the legacy DWC2 controller is required
+# (e.g. for USB device mode) or if USB support is not required.
+otg_mode=1
+usb_max_current_enable=1
+
+
+[all]
+dtparam=i2c_arm=on
+dtparam=audio=on
+disable_overscan=1
+gpu_mem=256
+#disable_splash=1
+3dtparam=krnbt=on
+#hdmi_drive=2
+dtoverlay=i2c-rtc
+kernel=kernel8.img
+hdmi_enable_4kp60=1
+
+[pi5]
+dtparam=rtc_bbat_vchg=3000000
+dtparam=i2c_vc=on
+#dtoverlay=imx462,clock frequency=37125000
+
+#dtoverlay=veyecam2m
+#dtoverlay=veyecam2m,cam0
+#dtparam=pciex1_gen=3
+
+dtoverlay=veyecam2m
+dtoverlay=veyecam2m,cam0
+
+gpio=17=op,dh
+enable_uart=1
+dtoverlay=uart1-pi5,ctsrts
+#dtoverlay=uart0,ctsrts=on,rtspin=17
+
+dtparam=eee=off
+ethernet_eee=off

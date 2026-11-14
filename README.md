@@ -1,14 +1,15 @@
 <div align="center">
+<img src="./assets/logo-circle.png" alt="Logo" width="150" />
 
-# Gnomonster: Open source smart telescope 🌌🔭
+# Gnomonster: Open source smart telescope 
 
-[**🇺🇸 English**](#-english) • [**🇧🇷 Português**](#-português)
+[**English**](#-english) • [**Português**](#-português)
 
 </div>
 
 ---
 
-## uk English
+### English
 
 **Gnomon:** From Greek, meaning sundial — a rudimentary tool for tracking celestial bodies.  
 **Ster:** A Germanic suffix indicating someone who performs an action. Thus, *Gnomonster* means "one who makes a gnomon."
@@ -81,7 +82,7 @@ This project is under a Custom License - see the [LICENSE](LICENSE) file for det
 
 ---
 
-## 🇧🇷 Português
+### 🇧🇷 Português
 
 **Gnomon:** do grego significa relógio solar, uma ferramenta rudimentar para acompanhamento dos astros.  
 **Ster:** sufixo germânico que indica quem faz alguma coisa. De forma que *Gnomonster* é "quem faz gnomon".
