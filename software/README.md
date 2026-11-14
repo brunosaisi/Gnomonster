@@ -8,7 +8,7 @@
 
 ---
 
-### English
+### us English
 
 This repository is a quick guide/resource to building the `veyecam2m` driver on the Raspberry Pi 5 running **AstroArch** and creating a video pipeline from the VEYE driver to the **INDI** driver for astronomical autoguiding. There is probably a better way of doing it, but for now I'm just happy it works :) If you have any suggestions, feel free to make a pull request.
 
@@ -136,7 +136,7 @@ The device node should exist.
 
 ---
 
-### Português
+### 🇧🇷 Português
 
 Este repositório é um guia rápido/recurso para compilar o driver `veyecam2m` no Raspberry Pi 5 rodando **AstroArch** e criar um pipeline de vídeo do driver da VEYE para o driver **INDI** visando guiagem astronômica (*autoguiding*). Provavelmente existe uma maneira melhor de fazer isso, mas por enquanto estou feliz que funcione :) Se você tiver alguma sugestão, sinta-se à vontade para abrir um *pull request*.
 
