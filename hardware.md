@@ -57,7 +57,7 @@ While VNC gets the job done initially, I strongly recommend switching to **RustD
 # Hardware: lista de materiais e arquitetura do sistema
 
 <div align="center">
-  <img src="./assets/gnomonster1.jpg" alt="foto da montagem" width="150" /> &nbsp;&nbsp;&nbsp;&nbsp; <img src="./assets/gnomonster2.jpg" alt="foto da montagem" width="150" />
+  <img src="./assets/gnomonster1.jpg" alt="foto da montagem" width="300" /> &nbsp;&nbsp;&nbsp;&nbsp; <img src="./assets/gnomonster2.jpg" alt="foto da montagem" width="300" />
 </div>
 
 ---
@@ -77,7 +77,7 @@ Leia a documentação de cada item em seus respectivos repositórios oficiais, p
 * **[Par de Motores NEMA 17 400P]** (alimentação via Fysetc)
 * **[Roteador Wifi]**
 
-<img src="./assets/grafo1.jpg" alt="arquitetura do sistema" width="100%" />
+<img src="./assets/grafo1.png" alt="arquitetura do sistema" width="100%" />
 
 ## Configurações de rede
 
