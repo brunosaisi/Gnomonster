@@ -10,7 +10,7 @@
 # Hardware: Bill of Materials and System Architecture
 
 <div align="center">
-  <img src="./assets/gnomonster1.jpg" alt="Mount photo" width="150" /> &nbsp;&nbsp;&nbsp;&nbsp; <img src="./assets/gnomonster2.jpg" alt="Mount photo" width="150" />
+  <img src="./assets/gnomonster1.jpg" alt="Mount photo" width="300" /> &nbsp;&nbsp;&nbsp;&nbsp; <img src="./assets/gnomonster2.jpg" alt="Mount photo" width="300" />
 </div>
 
 ---
