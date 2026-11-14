@@ -28,6 +28,7 @@ Please read the official documentation for each item in their respective reposit
 * **[VEYE MIPI IMX462 Module]** 3.3–5V (powered via RPi GPIO)
 * **[FYSETC E4 Board (OnStepX)]** 12V 10A
 * **[Pair of NEMA 17 400-Step Motors]** (powered via FYSETC E4)
+* **[Wifi router]**
 
 <img src="./assets/grafo1.png" alt="System architecture" width="100%" />
 
@@ -74,6 +75,7 @@ Leia a documentação de cada item em seus respectivos repositórios oficiais, p
 * **[Módulo VEYE MIPI IMX462]** 3.3-5v (alimentação via gpio da RPi)
 * **[Placa FYSETC E4 (OnStepX)]** 12v 10a
 * **[Par de Motores NEMA 17 400P]** (alimentação via Fysetc)
+* **[Roteador Wifi]**
 
 <img src="./assets/grafo1.jpg" alt="arquitetura do sistema" width="100%" />
 
