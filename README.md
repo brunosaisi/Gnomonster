@@ -18,11 +18,13 @@ Gnomonster is a low-cost, open-source instrumentation ecosystem for amateur astr
 
 The project combines precision mechanical engineering (CAD/3D printing), embedded Linux Kernel compilation on the Raspberry Pi 5, microcontroller firmware automation, and real-time video pipelines to enable deep-sky astrophotography with GoTo, responsive guiding, and remote control via Wi-Fi.
 
+This page sets an overview of the project, if you are intrested in building it you should see the hardware and software sections as well as the upstream links for Onstep's and Astroarch's inicial setup. This project's scope is the intagration of these open source systems.
+
 ---
 
 ### 🏗️ System Architecture & Technical Contributions
 
-#### 1. Mechanical & Optical Engineering (CAD & Prototyping)
+#### 1. CAD & Prototyping
 To mitigate axial play, friction, and internal reflections that degrade the signal-to-noise ratio (SNR) of images, the project involved custom mechanical development:
 * **EQ3 Mount Restoration:** Modeling and machining/3D printing of internal bushings and custom brackets to couple bearings onto the worm gears, eliminating mechanical *backlash*.
 * **Internal Baffles (OTA):** Computational modeling and 3D printing (PLA) of conical internal baffles for the optical tube (70mm f/7 doublet refractor), optimized to trap stray reflections and maximize stellar contrast (empirical proof documented in the repository).
@@ -38,10 +40,6 @@ The native drivers provided by the manufacturer were not integrated into the Lin
 * **Ingestion:** Captures the raw digital stream coming from the MIPI-CSI bus via **GStreamer**.
 * **Dynamic Transcoding:** The feed is tuned via command-line **FFmpeg**, allowing precise control over the sensor's continuous exposure time (frames up to 1s) to mitigate thermal noise.
 * **V4L2 Emulation:** Injects the processed stream into a simulated loopback video device (`/dev/videoX` via Video4Linux2), making the industrial sensor feed 100% readable and compatible with the autonomous guiding module in **Ekos**.
-
-#### 4. Astronomical Firmware Orchestration (OnStepX)
-* Integration of the **FYSETC E4** esp32 based 3d printer controller board using the open-source **OnStepX** firmware.
-* Fine calibration of steps per arcsecond based on the mechanical gear reduction of the EQ3 worm wheels, enabling responsive micro-correction commands sent via the **INDI** distributed network socket protocol.
 
 ---
 
@@ -91,11 +89,13 @@ O Gnomonster é um ecossistema de instrumentação para astronomia e astrofotogr
 
 O projeto combina CAD/impressão 3D, compilação do Kernel Linux embarcado no Raspberry Pi 5, automação de firmware em microcontroladores e pipelines de vídeo em tempo real para viabilizar astrofotografia de céu profundo com GoTo, guiagem responsiva e controle remoto via Wi-Fi.
 
+"Esta página apresenta uma visão geral do projeto. Caso tenha interesse em construí-lo, consulte as seções de hardware e software, bem como os links dos projetos originais (upstream) para a configuração inicial do OnStep e do AstroArch. O escopo deste projeto é a integração entre esses sistemas de código aberto."
+
 ---
 
 ### 🏗️ Arquitetura do Sistema e Contribuições Técnicas
 
-#### 1. Engenharia Mecânica e Óptica (CAD & Prototipagem)
+#### 1. CAD & Prototipagem
 Para mitigar folgas axiais, atritos e reflexões internas que destroem a relação sinal-ruído das imagens, o projeto envolveu desenvolvimento mecânico sob medida:
 * **Restauração da Montagem EQ3:** Modelagem e usinagem/impressão de buchas internas e suportes customizados para acoplamento de rolamentos nos fusos infinitos, eliminando o *backlash* mecânico.
 * **Defletores Internos (OTA):** Modelagem computacional e impressão 3D (PLA) de defletores internos cônicos para o tubo óptico (refrator dubleto 70mm f/7), otimizados para reter reflexões espúrias e maximizar o contraste estelar (comprovação empírica documentada no repositório).
@@ -111,10 +111,6 @@ Os drivers nativos fornecidos pelo fabricante não eram integrados ao ecossistem
 * **Ingestão:** Captura o fluxo digital bruto vindo do barramento MIPI-CSI via **GStreamer**.
 * **Transcodificação Dinâmica:** O feed é tunado por comandos **FFmpeg** em linha de comando, permitindo o controle exato do tempo de exposição contínua do sensor (frames de até 1s) para mitigar ruidos térmicos.
 * **Emulação V4L2:** Injeta o fluxo processado em um dispositivo de vídeo em loopback simulado (`/dev/videoX` via Video4Linux2), tornando o feed do sensor industrial 100% legível e compatível com o módulo de guiagem autônoma do **Ekos (PHD2 Engine)**.
-
-### 4. Orquestração de Firmware Astronômico (OnStepX)
-* Integração da placa controladora de motores de passo **FYSETC E4** ao ecossistema por meio do firmware open-source **OnStepX**.
-* Calibração fina dos passos por arcosegundo baseada na redução mecânica das coroas da EQ3, permitindo comandos responsivos de micro-correções enviados via protocolo de sockets de rede distribuída **INDI**.
 
 ---
 

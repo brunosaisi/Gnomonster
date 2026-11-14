@@ -2,14 +2,13 @@
 
 # VEYE mipi IMX462 + Raspberry Pi 5 (building and installing driver on AstroArch) 
 
-[**English**](#-English) • [**Português**](#-Português)
-
+[**English**](#-english) • [**Português**](#-português)
 
 </div>
 
 ---
 
-## English
+### English
 
 This repository is a quick guide/resource to building the `veyecam2m` driver on the Raspberry Pi 5 running **AstroArch** and creating a video pipeline from the VEYE driver to the **INDI** driver for astronomical autoguiding. There is probably a better way of doing it, but for now I'm just happy it works :) If you have any suggestions, feel free to make a pull request.
 
@@ -22,7 +21,7 @@ I still haven't made a GUI for the camera configuration module; you can control 
 ### Post-Installation
 The `start_camera.sh` script must be run every time you boot the system to start the video pipeline. It calls the VEYE scripts for driver configuration and starts a **GStreamer + FFmpeg** video pipeline so the INDI V4L2 driver recognizes the sensor data stream.
 
-<img src="./assets/video-pipeline.jpg.png" alt="data pipeline graph" width="100%" />
+<img src="../assets/video-pipeline.jpg.png" alt="data pipeline graph" width="100%" />
 
 ---
 
@@ -137,7 +136,7 @@ The device node should exist.
 
 ---
 
-## Português
+### Português
 
 Este repositório é um guia rápido/recurso para compilar o driver `veyecam2m` no Raspberry Pi 5 rodando **AstroArch** e criar um pipeline de vídeo do driver da VEYE para o driver **INDI** visando guiagem astronômica (*autoguiding*). Provavelmente existe uma maneira melhor de fazer isso, mas por enquanto estou feliz que funcione :) Se você tiver alguma sugestão, sinta-se à vontade para abrir um *pull request*.
 
@@ -150,7 +149,7 @@ Ainda não criei uma interface gráfica (GUI) para o módulo de configuração d
 ### Pós-Instalação
 O script `start_camera.sh` deve ser executado toda vez que você iniciar o sistema para ativar o pipeline de vídeo. Ele chama os scripts da VEYE para configurar o driver e inicia um pipeline de vídeo **GStreamer + FFmpeg** para que o driver INDI V4L2 reconheça o fluxo de dados do sensor.
 
-<img src="./assets/video-pipeline.jpg.png" alt="grafo do pipeline de dados" width="100%" />
+<img src="../assets/video-pipeline.jpg.png" alt="grafo do pipeline de dados" width="100%" />
 
 ---
 
