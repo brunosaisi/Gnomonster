@@ -1,7 +1,7 @@
 # Computer Assisted Design and mechanical build
  
 
-## ⚠️ página em construção ⚠️
+## ⚠️ Página em construção ⚠️
 
 ---
 
@@ -24,5 +24,5 @@ https://www.academia.edu/42708675/Refractor_Baffling_V8_3_2022
 
 
 <div align="center">
-  <img src="./assets/gnomonster1.jpg" alt="Mount photo" width="300" /> &nbsp;&nbsp;&nbsp;&nbsp; <img src="./assets/gnomonster2.jpg" alt="Mount photo" width="300" />
+  <img src="../assets/gnomonster1.jpg" alt="Mount photo" width="300" /> &nbsp;&nbsp;&nbsp;&nbsp; <img src="../assets/gnomonster2.jpg" alt="Mount photo" width="300" />
 </div>
