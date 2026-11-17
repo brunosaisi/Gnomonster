@@ -58,27 +58,21 @@ After installing everything and setting up the network, let's start the camera a
 <img src="./assets/tela/desktop.jpg" alt="desktop with the start astro camera shortcut selected" width="100%" />
 When you click the shortcut to start the camera, the script that creates the pipeline will launch. A terminal window will ask for your system password; if you haven't changed it, it will be "astro", the default password. 
 
-<img src="./assets/tela/pipe-video.jpg" alt="two terminal windows open running the video loops" width="100%" />
-After authenticating with the password, the loopback will start and a second terminal will open running ffmpeg while the first terminal runs gstreamer. Do not close these terminals.
+<img src="./assets/tela/pipe-video.jpg" alt="two terminal windows open running the video loops" width="100%" /> After authenticating with the password, the loopback will start and a second terminal will open running ffmpeg while the first terminal runs gstreamer. Do not close these terminals.
 
-<img src="./assets/tela/desktop1.jpg" alt="KStars icon selected on the desktop" width="100%" />
-Open KStars
+<img src="./assets/tela/desktop1.jpg" alt="KStars icon selected on the desktop" width="100%" /> Open KStars
 
 <img src="./assets/tela/ekos.jpg" alt="Ekos icon selected in the KStars interface" width="100%" />
 
 <img src="./assets/tela/ekos2.jpg" alt="profile editor icon in Ekos" width="100%" />
 
-<img src="./assets/tela/profile-editor.jpg" alt="profile editor: local, guiding: internal, autoconnect: yes, drivers" width="100%" />
-In the Profile Editor, choose the "INDI webcam" and "LX200 OnStep" drivers, as well as the driver for your main camera.
+<img src="./assets/tela/profile-editor.jpg" alt="profile editor: local, guiding: internal, autoconnect: yes, drivers" width="100%" /> In the Profile Editor, choose the "INDI webcam" and "LX200 OnStep" drivers, as well as the driver for your main camera.
 
-<img src="./assets/tela/ekos3.jpg" alt="play button" width="100%" />
-Start INDI server
+<img src="./assets/tela/ekos3.jpg" alt="play button" width="100%" /> Start INDI server
 
-<img src="./assets/tela/ekos4.jpg" alt="INDI webcam driver settings" width="100%" />
-Select "Video 10" in the "capture sources" menu, then click "Scan Sources".
+<img src="./assets/tela/ekos4.jpg" alt="INDI webcam driver settings" width="100%" /> Select "Video 10" in the "capture sources" menu, then click "Scan Sources".
 
-<img src="./assets/tela/ekos5.jpg" alt="LX200 OnStep driver settings" width="100%" />
-If you are using a USB cable, select serial as shown in the image, though you can also select network mode and enter the OnStep IP address. USB is preferred.
+<img src="./assets/tela/ekos5.jpg" alt="LX200 OnStep driver settings" width="100%" /> If you are using a USB cable, select serial as shown in the image, though you can also select network mode and enter the OnStep IP address. USB is preferred.
 
 Once this is done, the camera is ready for guiding. Using the Veye camera configuration script, set the exposure time to 1 second and the gain to 33 (try adjusting the gain while guiding to find the highest signal-to-noise ratio).
 See the [documentation](https://wiki.veye.cc/index.php/VEYE-MIPI-290/327_i2c/).
